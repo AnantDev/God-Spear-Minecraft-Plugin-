@@ -1,0 +1,10 @@
+type: sqlite
+sqlite-file: godspear.db
+mysql:
+  host: localhost
+  port: 3306
+  database: godspear
+  username: root
+  password: change-me
+  pool-size: 10
+  use-ssl: false

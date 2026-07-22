@@ -1,0 +1,25 @@
+name: GodSpear
+version: '1.0.0'
+main: dev.godspear.GodSpearPlugin
+api-version: '1.21'
+folia-supported: true
+description: Secure owner-bound progression spears
+authors: [GodSpear]
+softdepend: [PlaceholderAPI, Citizens, WorldGuard, GriefPrevention, Towny, Lands, CombatLogX, Multiverse-Core]
+commands:
+  godspear:
+    description: God Spear commands
+    usage: /godspear help
+    permission: godspear.use
+permissions:
+  godspear.use: {default: true}
+  godspear.info: {default: true}
+  godspear.admin: {default: op, children: {godspear.give: true, godspear.reset: true, godspear.remove: true, godspear.setstage: true, godspear.setkills: true, godspear.reload: true, godspear.validate: true, godspear.debug: true}}
+  godspear.give: {default: op}
+  godspear.reset: {default: op}
+  godspear.remove: {default: op}
+  godspear.setstage: {default: op}
+  godspear.setkills: {default: op}
+  godspear.reload: {default: op}
+  godspear.validate: {default: op}
+  godspear.debug: {default: op}

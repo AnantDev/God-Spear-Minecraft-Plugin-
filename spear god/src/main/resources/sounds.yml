@@ -1,0 +1,3 @@
+receive: {enabled: true, sound: ENTITY_PLAYER_LEVELUP, volume: 1.0, pitch: 1.2}
+upgrade: {enabled: true, sound: UI_TOAST_CHALLENGE_COMPLETE, volume: 1.0, pitch: 1.0}
+destroy: {enabled: true, sound: ENTITY_ENDERMAN_DEATH, volume: 1.0, pitch: 0.6}

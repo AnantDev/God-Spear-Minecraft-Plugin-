@@ -1,0 +1,23 @@
+tested-minecraft: ["1.21.11"]
+allow-offhand: true
+auto-give-on-first-join: true
+inventory-retry-ticks: 100
+anti-farming:
+  same-victim-cooldown-seconds: 3600
+  daily-victim-limit: 3
+  minimum-victim-playtime-minutes: 0
+  check-ip: false
+  block-npcs: true
+  block-fake-players: true
+progression:
+  stone: 1
+  iron: 2
+  diamond: 3
+  netherite: 4
+  god: 5
+god:
+  sharpness-level: 7
+  lunge-level: 5
+logging:
+  valid-kills: true
+  rejected-kills: false
